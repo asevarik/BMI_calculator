@@ -1,6 +1,4 @@
-import 'package:bmi_calculator/Contants.dart';
-
-import 'main.dart';
+import 'package:bmi_calculator/Components/Contants.dart';
 import 'package:flutter/material.dart';
 
 class ResultPage extends StatelessWidget {
