@@ -22,11 +22,11 @@ class CalculatorBrain {
 
   String getInterpretation() {
     if (_bmi >= 25) {
-      return 'Bhai mota ho gya h tu jaldi ptla ho ja nhi to shadi k lalle pd jayenge';
+      return 'you are Overweight';
     } else if (_bmi >= 18.5) {
-      return 'Bawa bole to ek dum kantap bady he bss ese hi maintain krke rkh';
+      return 'you have a perfect body';
     } else {
-      return 'bhai khaya peeya krr nhi to log kuposhit bolna chalu karr denge';
+      return 'you are underweight';
     }
   }
 }
